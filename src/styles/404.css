@@ -1,0 +1,24 @@
+.container404{
+    display: grid;
+    height: 1000px;
+    grid-template-rows: 1fr 1fr;
+    gap: 80px;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 30px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(21, 20, 27, 2),
+        rgba(21, 20, 27, 0.1)
+      ), url(src/assets/img/backgrounds/_aacc064f-78ca-430d-9a9f-026d8b8fbd2b.png);
+      background-repeat: no-repeat;
+      background-size:contain;
+      background-position: center;
+      font-family: bebas neue;
+      font-size: 100px;
+      padding-left: 30px ;
+}
+
+h2{
+    font-size: 50px;
+}

@@ -5,7 +5,7 @@ import { MainRouter } from './router/MainRouter'
 
 
 
-import "./App.css"
+import "./styles/App.css"
 
 
 

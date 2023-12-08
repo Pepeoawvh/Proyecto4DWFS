@@ -4,7 +4,7 @@
 // y NavLink es casi igual que el Link, pero a nuestro componente le agrega una clase ".active"
 
 import { NavLink, Link } from 'react-router-dom'  
-import './Navbar.css'
+import '../styles/Navbar.css'
 export const Navbar = () => {
   return (
     <header>
@@ -19,15 +19,15 @@ export const Navbar = () => {
             <NavLink to="/">Inicio</NavLink>
           </li>
           <li>
-            <NavLink to="/sobre-nosotros">Sobre Nosotros</NavLink>
-          </li>
-          <li>
-            <NavLink to="/productos">Productos</NavLink>
+            <NavLink to="/productos">LaCarta</NavLink>
           </li>
           <li>
             <NavLink to="/contacto">Contacto</NavLink>
           </li>
           <li>
+          <li>
+            <NavLink to="/sobre-nosotros">Nosotros</NavLink>
+          </li>
             <NavLink to="/Inicio-Sesion">Inicio Sesión</NavLink>
           </li>
         </ul>
