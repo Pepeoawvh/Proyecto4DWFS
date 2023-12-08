@@ -1,0 +1,77 @@
+/* Resetear estilos para el navegador */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .parrafo404{
+    margin-left: 690px;
+    margin-top: 50px
+  }
+  
+  /* Estilos generales del Navbar */
+  header {
+   display: grid;
+   grid-template-columns: 1fr;
+   justify-items: center;
+    padding: 10px; /* Espaciado interno superior e inferior */
+  }
+  
+  nav {
+    
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    justify-content: center; /* Centrar los elementos del Navbar */
+    align-content: center;
+    align-items: center;
+    border: solid rgba(218, 161, 4, 0.967)2px ;
+    border-radius: 80px;
+    height: 75px;
+    width: 50%;
+  }
+
+  .logo{
+    background-image: url(src/assets/img/icons/PIZALOGO.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 70px;
+    height: 70px;
+    justify-self: right;
+    margin-right: 20px;
+  
+
+  }
+  
+  /* Estilos de los elementos del Navbar */
+  
+  nav div a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 30px;
+  }
+  
+  ul {
+    list-style: none; /* Eliminar los puntos de la lista */
+  }
+  
+  li {
+    display: inline-block; /* Mostrar los elementos de la lista en línea */
+    margin-right: 20px; /* Espaciado entre elementos de la lista */
+  }
+  
+  a {
+    text-decoration: none; /* Eliminar el subrayado predeterminado de los enlaces */
+    color: #fff; /* Color del texto del enlace */
+    font-weight: bold; /* Hacer el texto del enlace en negrita */
+    font-size: 16px; /* Tamaño del texto del enlace */
+  }
+  
+  /* Estilos al pasar el ratón sobre los enlaces */
+  a:hover {
+    color: #ff9900; /* Cambiar el color del texto al pasar el ratón sobre el enlace */
+  }
+  
+  .active {
+    color: #ff9900; /* Color del texto del enlace activo */
+  }
