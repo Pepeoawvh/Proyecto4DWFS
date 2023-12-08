@@ -5,6 +5,6 @@ import { Navbar } from "../components/Navbar"
 export const SobreNosotros = () => {
   return ( <> 
      <Navbar/>
-    <h1>SobreNosotros</h1>
+    <h1>Nosotros</h1>
     </>)
 }
