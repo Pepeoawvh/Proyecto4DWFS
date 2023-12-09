@@ -11,7 +11,7 @@ import '../styles/Pizzas.css'
 
       <h2 className='tituloCard'>PIZZA PEPPERONI XBOX</h2> 
       <div className='imagen1'/>
-      <p>Ingredientes: Queso Mozarella, Salsa de Tomates y Pepperoni Americano</p>
+      <p>Ingredientes: Queso Mozarella, Salsa de Tomate y Pepperoni Americano</p>
       <h1 className='precio'>Precio: $9.990</h1>
       <button className='boton1'>Ver más</button>
     </div>
@@ -20,7 +20,7 @@ import '../styles/Pizzas.css'
 
       <h2 className='tituloCard'>PIZZA VEGAN NINTENDO</h2>
       <div className='imagen2'/>
-      <p>Ingredientes: Queso Mozarella, Salsa de Tomates, Choclo, Pimentón</p>
+      <p>Ingredientes: Queso Mozarella, Salsa de Tomate, Choclo, Pimentón</p>
       <h1 className='precio'>Precio: $13.990</h1>
       <button className='boton2'>Ver más</button>
     </div>
