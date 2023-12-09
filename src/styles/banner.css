@@ -1,0 +1,37 @@
+/* Estilos Banner.jsx */
+
+.centrar-imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 77vh; /* Usa el 100% de la altura de la ventana del navegador */
+}
+
+.centrar-imagen img {
+  max-width: 100%;
+  max-height: 100%; /* Ajusta la imagen para ocupar el 100% del contenedor */
+  vertical-align: middle; /* Alinea verticalmente la imagen */
+  margin-top: -30px; /* Mueve la imagen 20px hacia arriba */
+}
+
+/* estilos contenedor banner */
+.bannerContainer{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+/* estilos imagen banner lado izquierdo */
+.bannerImg{
+  display: grid;
+  grid-template-rows: 1fr;
+  background-image: url(src/assets/img/Banners/Bienvenido.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  height: 500px;
+  width: 100%;
+}
+/* Estilos banner lado derecho */
+.bannerRight{
+  display: grid;
+
+}
