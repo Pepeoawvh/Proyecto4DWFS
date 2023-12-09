@@ -9,9 +9,9 @@ export const Navbar = () => {
   return (
     <header>
       <nav>
-        <div className='logo'>
+        <div>
             <Link to="/">
-                <div src="" className="logo" alt=""/>
+                <div className="logo"/>
             </Link>
         </div>
         <ul>
