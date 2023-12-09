@@ -5,7 +5,7 @@ export const Error404 = () => {
     <div className='container404'>
         <h1 className='parrafo404'>Error 404 - Vacio de Pizza</h1>
     <a href="/">
-        <h2>Volver a inicio</h2>
+        <h2 className='volver404'>Volver a inicio</h2>
     </a>
     </div>
 
