@@ -19,16 +19,16 @@ export const Navbar = () => {
             <NavLink to="/">Inicio</NavLink>
           </li>
           <li>
-            <NavLink to="/productos">LaCarta</NavLink>
+            <NavLink to="/productos">Menú</NavLink>
           </li>
           <li>
-            <NavLink to="/contacto">Contacto</NavLink>
+            <NavLink to="/contacto">Reservas</NavLink>
           </li>
           <li>
           <li>
-            <NavLink to="/sobre-nosotros">Nosotros</NavLink>
+            <NavLink to="/sobre-nosotros">Encuentranos</NavLink>
           </li>
-            <NavLink to="/Inicio-Sesion">Inicio Sesión</NavLink>
+  
           </li>
         </ul>
       </nav>

@@ -11,6 +11,7 @@ body, h1, h2, h3, p, ul {
    grid-template-columns: 1fr;
    justify-items: center;
     padding: 10px; /* Espaciado interno superior e inferior */
+    
   }
   
   nav {
@@ -21,14 +22,15 @@ body, h1, h2, h3, p, ul {
     align-content: center;
     align-items: center;
     justify-items: center;
-    border: solid rgba(218, 161, 4, 0.967)2px ;
+    border: solid rgba(122, 120, 120, 0)2px ;
     border-radius: 80px;
     height: 75px;
     width: 50%;
+    background-color: #272529d4;
   }
 
   .logo{
-    background-image: url(src/assets/img/icons/PIZALOGO.png);
+    background-image: url(src/assets/img/icons/logo.png);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 70px;

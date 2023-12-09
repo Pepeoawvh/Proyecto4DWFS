@@ -2,14 +2,16 @@
 
 import { Navbar } from '../components/Navbar'
 import "../styles/Inicio.css"
-import { Pizzas } from '../components/Pizzas'
+import { Landing } from '../components/Landing'
+import { Footer } from '../components/Footer'
 
  export const Inicio = () => {
   return (
     <>
     <div className="bannerJumbo">
     <Navbar />
-    <Pizzas/>
+    <Landing/>
+    <Footer />
     
 
     </div>

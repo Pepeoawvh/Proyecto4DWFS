@@ -1,0 +1,19 @@
+body, html {
+  margin: 0;
+  padding: 10;
+  height: 100%;
+}
+
+.centrar-imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 77vh; /* Usa el 100% de la altura de la ventana del navegador */
+}
+
+.centrar-imagen img {
+  max-width: 100%;
+  max-height: 100%; /* Ajusta la imagen para ocupar el 100% del contenedor */
+  vertical-align: middle; /* Alinea verticalmente la imagen */
+  margin-top: -30px; /* Mueve la imagen 20px hacia arriba */
+}
