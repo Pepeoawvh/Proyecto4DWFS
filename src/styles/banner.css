@@ -24,7 +24,7 @@
   display: grid;
   grid-template-rows: 1fr;
   background-image: url(src/assets/img/Banners/Bienvenido.png);
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 50%;
   height: 500px;
@@ -32,6 +32,30 @@
 }
 /* Estilos banner lado derecho */
 .bannerRight{
-  display: grid;
+  display: grid ;
+  justify-items: center
 
+}
+.card{
+  display: grid;
+  width: 90%;
+  background-color: #ffbb5b71;
+  display: grid;
+  border-radius: 25px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  justify-items: center;
+}
+
+.card2{
+  background-color: rgba(228, 61, 23, 0.54);
+  display: grid;
+  border-radius: 25px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  justify-items: center;
 }
