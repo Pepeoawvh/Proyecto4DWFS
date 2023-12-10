@@ -1,4 +1,4 @@
-.container404{
+.container404 {
     display: grid;
     height: 1000px;
     grid-template-rows: 1fr 1fr;
@@ -6,18 +6,46 @@
     justify-content: center;
     justify-items: center;
     margin-top: 30px;
-    background-image: linear-gradient(
-        to bottom,
-        rgba(21, 20, 27, 2),
-        rgba(21, 20, 27, 0.1)
-      ), url(src/assets/img/backgrounds/_aacc064f-78ca-430d-9a9f-026d8b8fbd2b.png);
-      background-repeat: no-repeat;
-      background-size:contain;
-      background-position: center;
-      font-family: bebas neue;
-      font-size: 100px;
-      padding-left: 30px ;
+    background-image: linear-gradient(to bottom,
+            rgba(21, 20, 27, 2),
+            rgba(21, 20, 27, 0.1)), url(src/assets/img/backgrounds/_aacc064f-78ca-430d-9a9f-026d8b8fbd2b.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-family: bebas neue;
+    font-size: 100px;
+    padding-left: 30px;
 }
-.volver404{
+
+.volver404 {
     font-size: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .container404 {
+        display: grid;
+        height: 500px;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+        justify-content: center;
+        justify-items: center;
+        margin-top: 30px;
+        background-image: linear-gradient(to bottom,
+                rgba(21, 20, 27, 2),
+                rgba(21, 20, 27, 0.1)), url(src/assets/img/backgrounds/_aacc064f-78ca-430d-9a9f-026d8b8fbd2b.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        font-family: bebas neue;
+        font-size: 40px;
+        padding-left: 0px;
+    }
+
+    .volver404 {
+        font-size: 50px;
+        border: solid 4px white;
+        padding: 5px 30px 0px 30px;
+        border-radius: 40px;
+    }
+
 }

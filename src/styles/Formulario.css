@@ -1,8 +1,9 @@
-h1{
+h1 {
     text-align: center;
     color: rgb(204, 143, 12);
 }
-.formContainer{
+
+.formContainer {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
@@ -13,9 +14,13 @@ form {
     color: rgb(241, 191, 9);
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.1fr;
-    width: 30%;
+    width: 500pxvw;
+    border: solid 3px white;
+    padding: 20px;
+    border-radius: 30px;
 }
-input{
+
+input {
     border-radius: 15px;
     margin-bottom: 5px;
     height: 30px;
@@ -28,7 +33,8 @@ input{
     color: white;
 
 }
-button{
+
+button {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
     margin-top: 10px;
@@ -39,11 +45,12 @@ button{
     border: solid white 2px;
     transition: 0.3s;
 }
-label{
+
+label {
     margin-top: 5px;
 }
 
 button:hover {
     cursor: pointer;
     background-color: rgb(241, 144, 9);
-  }
+}

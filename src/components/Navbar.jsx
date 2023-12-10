@@ -16,7 +16,7 @@ export const Navbar = () => {
                 <div className="logo"/>
             </Link>
         </div>
-        <ul>
+        <ul className='descripcionProducto'>
           <li>
             <NavLink to="/">Inicio</NavLink>
           </li>
@@ -24,7 +24,7 @@ export const Navbar = () => {
             <NavLink to="/productos">Menú</NavLink>
           </li>
           <li>
-            <NavLink to="/contacto">Reservas</NavLink>
+            <NavLink to="/Reserva">Reservas</NavLink>
           </li>
           <li>
           <li>
