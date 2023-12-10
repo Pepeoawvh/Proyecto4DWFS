@@ -4,6 +4,6 @@ export { Inicio } from "./Inicio";
 export { SobreNosotros } from "./SobreNosotros";
 export { Reserva } from "./Reserva";
 export { InicioSesion } from "./InicioSesion";
-export { Productos } from "./Productos";
+export { Menu } from "./Menu";
 export { Error404 } from "./Error404";
 export { ProductoPorId } from "./ProductoPorId";
