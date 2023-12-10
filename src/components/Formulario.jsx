@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import '../styles/Formulario.css'
+import '../styles/textos.css'
+
 export const Formulario = () => {
 
   

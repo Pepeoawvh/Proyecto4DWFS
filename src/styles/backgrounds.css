@@ -1,0 +1,19 @@
+.bannerJumboControl {
+    background-image: url(src/assets/img/backgrounds/bg1.png);
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 0cm 0cm;
+}
+
+.bannerJumbo {
+    background-image: linear-gradient(to bottom,
+            rgba(21, 20, 27, 2),
+            rgba(21, 20, 27, 0.1)), url(src/assets/img/backgrounds/_aacc064f-78ca-430d-9a9f-026d8b8fbd2b.png);
+    background-size: 100%;
+    height: 45cm;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 0cm 1cm;
+}
