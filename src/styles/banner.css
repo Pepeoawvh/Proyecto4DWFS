@@ -20,7 +20,7 @@
  grid-template-columns: 1fr 1fr;
 }
 /* estilos imagen banner lado izquierdo */
-.bannerImg{
+.bannerImgRatita{
   display: grid;
   grid-template-rows: 1fr;
   background-image: url(src/assets/img/Banners/Bienvenido.png);
@@ -36,26 +36,37 @@
   justify-items: center
 
 }
-.card{
-  display: grid;
-  width: 90%;
-  background-color: #ffbb5b71;
+.cardXbox{
+  background-color:#227b1d;
   display: grid;
   border-radius: 25px;
+  border: solid 5px white;
   padding: 20px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
   justify-items: center;
 }
 
-.card2{
-  background-color: rgba(228, 61, 23, 0.54);
+.cardNintendo{
+  background-color:rgb(232, 20, 48);
   display: grid;
   border-radius: 25px;
+  border: solid 5px white;
   padding: 20px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
   justify-items: center;
+}
+
+.precio{
+font-size: 10px;;
+
+} 
+
+.ingredientes{
+  margin-top: 15px;
 }

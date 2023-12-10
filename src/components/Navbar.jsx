@@ -5,6 +5,8 @@
 
 import { NavLink, Link } from 'react-router-dom'  
 import '../styles/Navbar.css'
+import '../styles/textos.css'
+
 export const Navbar = () => {
   return (
     <header>
