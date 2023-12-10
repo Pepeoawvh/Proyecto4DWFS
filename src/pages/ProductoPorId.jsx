@@ -1,17 +1,14 @@
 import { useParams } from "react-router-dom";
 
-
 export const ProductoPorId = () => {
+  const valorDinamico = useParams();
 
-    const valorDinamico = useParams ();
-
-    console.log (valorDinamico.idProducto)
+  console.log(valorDinamico.idProducto);
 
   return (
     <>
-    <h1>Producto por ID</h1>
-    <h3>El ID de tu producto es: {valorDinamico.idProducto}</h3>
+      <h1>Producto por ID</h1>
+      <h3>El ID de tu producto es: {valorDinamico.idProducto}</h3>
     </>
-  )
-}
- 
+  );
+};
