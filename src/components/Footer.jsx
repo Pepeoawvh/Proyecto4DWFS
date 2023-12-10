@@ -1,6 +1,8 @@
 
 import React from 'react';
 import '../styles/Footer.css'
+import '../styles/textos.css'
+
 
  export const Footer = () => {
   

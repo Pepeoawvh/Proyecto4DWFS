@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
 import '../styles/banner.css'
-import Card from './Card';
-import Card2 from './Card2';
+import '../styles/textos.css'
+import { Card, Card2 } from './Cards';
 
  export const Banner = () => {
 
@@ -16,7 +16,7 @@ import Card2 from './Card2';
  return (
 <> 
       <div className="bannerContainer">
-        <div className='bannerImg'></div>
+        <div className='bannerImgRatita'></div>
         
         <div className="bannerRight" onClick={handleClick} >
         {isCard2 ? <Card2 /> : <Card />}

@@ -2,8 +2,10 @@
 
 import { Navbar } from '../components/Navbar'
 import { Banner } from '../components/Banner'
-import "../styles/Inicio.css"
 import { Footer } from '../components/Footer'
+import "../styles/backgrounds.css"
+import '../styles/textos.css'
+
 
 
  export const Inicio = () => {
