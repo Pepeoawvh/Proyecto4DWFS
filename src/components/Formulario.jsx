@@ -121,7 +121,7 @@ export const Formulario = () => {
           onChange={handleChange}
         />
         
-         <label htmlFor="hora">Hora:</label>
+         <label htmlFor="hora">Hora: (14:00 hrs hasta las 22:00 hrs)</label>
         <input
           type="time"
           id="hora"
