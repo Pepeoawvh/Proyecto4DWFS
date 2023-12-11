@@ -43,7 +43,7 @@ export const Formulario = () => {
     
   };
 
-  // aqui va el nuevo codigo 
+  // aqui va el nuevo codigo de limitación de horario de reserva 
 
   const esHoraReservable = (hora) => {
     // Define el horario de reserva permitido aquí.
