@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 // import React from "react";
-// import { firestoreDB } from "../firebase/config";
+import { firestoreDB } from "../firebase/config";
 import '../styles/Formulario.css'
 import '../styles/textos.css'
 
@@ -26,12 +26,18 @@ export const Formulario = () => {
     });
   };
 
-  // Creamos una función para manejar el envío del formulario
-  const handleSubmit = (event) => {
+  // Creamos una función, proceso asincrono, para manejar el envío del formulario
+  const handleSubmit = async (event) => {
     // Evitamos el comportamiento por defecto del formulario
     event.preventDefault();
-    // Mostramos los datos por consola
-    console.log(datos);
+    // Intentar conectarse a la colección de bbdd, y agrega nuevo doc
+    try {
+      await firestoreDB.collection("reservas").add(datos)
+      alert("Reserva guardada")
+    } catch (error){
+      alert("No se pudo guardar la reserva")
+      console.log(error)
+    }
   };
 
   return (
