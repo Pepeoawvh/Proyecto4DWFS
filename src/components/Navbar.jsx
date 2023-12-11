@@ -5,24 +5,26 @@
 
 import { NavLink, Link } from 'react-router-dom'  
 import '../styles/Navbar.css'
+import '../styles/textos.css'
+
 export const Navbar = () => {
   return (
     <header>
       <nav>
-        <div className='logo'>
+        <div>
             <Link to="/">
-                <div src="" className="logo" alt=""/>
+                <div className="logo"/>
             </Link>
         </div>
-        <ul>
+        <ul className='descripcionProducto'>
           <li>
             <NavLink to="/">Inicio</NavLink>
           </li>
           <li>
-            <NavLink to="/productos">Menú</NavLink>
+            <NavLink to="/Menu">Menú</NavLink>
           </li>
           <li>
-            <NavLink to="/contacto">Reservas</NavLink>
+            <NavLink to="/Reserva">Reservas</NavLink>
           </li>
           <li>
           <li>

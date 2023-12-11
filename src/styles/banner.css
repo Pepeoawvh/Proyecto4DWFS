@@ -1,0 +1,175 @@
+/* Estilos Banner.jsx */
+
+.centrar-imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 77vh;
+  /* Usa el 100% de la altura de la ventana del navegador */
+}
+
+.centrar-imagen img {
+  max-width: 100%;
+  max-height: 100%;
+  /* Ajusta la imagen para ocupar el 100% del contenedor */
+  vertical-align: middle;
+  /* Alinea verticalmente la imagen */
+  margin-top: -30px;
+  /* Mueve la imagen 20px hacia arriba */
+}
+
+/* estilos contenedor banner */
+.bannerContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 15px;
+}
+
+/* estilos imagen banner lado izquierdo */
+.bannerImgRatita {
+  display: grid;
+  grid-template-rows: 1fr;
+  background-image: url(src/assets/img/Banners/Bienvenido.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  height: 500px;
+  width: 100%;
+}
+
+/* Estilos banner lado derecho */
+.bannerRight {
+  display: grid;
+  justify-items: center
+}
+
+.cardXbox {
+  background-color: #227b1d;
+  display: grid;
+  border-radius: 25px;
+  border: solid 5px white;
+  padding: 20px;
+  height: 400px;
+  width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  justify-items: center;
+}
+
+.cardNintendo {
+  background-color: rgb(232, 20, 48);
+  display: grid;
+  border-radius: 25px;
+  border: solid 5px white;
+  padding: 20px;
+  height: 400px;
+  width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  justify-items: center;
+}
+
+.precio {
+  font-size: 10px;
+  ;
+
+}
+
+.ingredientes {
+  margin-top: 15px;
+}
+
+.imgCardXbox {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  background-image: url(src/assets/img/Productos/pizzaxbox.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-radius: 30px;
+
+}
+
+.imgCardNintendo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  background-image: url(src/assets/img/Productos/pizzaNintendo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-radius: 30px;
+}
+
+/* media queries banner */
+@media screen and (max-width: 768px) {
+
+
+  /* estilos contenedor banner */
+  .bannerContainer {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 0.8fr 1fr;
+    margin-top: 15px;
+  }
+
+  /* estilos imagen banner lado izquierdo */
+  .bannerImgRatita {
+    display: grid;
+    grid-template-rows: 1fr;
+    background-image: url(src/assets/img/Banners/Bienvenido.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    height: 200px;
+    width: 100%;
+  }
+
+  /* Estilos banner lado derecho */
+  .bannerRight {
+    display: grid;
+    justify-items: center
+  }
+
+  .cardXbox {
+    background-color: #227b1d;
+    border: solid 5px white;
+    display: grid;
+    border-radius: 25px;
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-items: center;
+  }
+
+  .cardNintendo {
+    background-color: rgb(232, 20, 48);
+    display: grid;
+    border-radius: 25px;
+    border: solid 5px white;
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-items: center;
+  }
+
+  .precio {
+    font-size: 10px;
+    ;
+
+  }
+
+  .tituloPromocion {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+
+  .ingredientes {
+    margin-top: 15px;
+  }
+}
