@@ -17,6 +17,8 @@ export const Formulario = () => {
     hora: "",
   });
 
+    
+
   // Creamos una función para manejar el cambio de los inputs
   const handleChange = (event) => {
     // Actualizamos el estado con el valor del input
@@ -38,7 +40,40 @@ export const Formulario = () => {
       alert("No se pudo guardar la reserva")
       console.log(error)
     }
+    
   };
+
+  // aqui va el nuevo codigo 
+
+  const esHoraReservable = (hora) => {
+    // Define el horario de reserva permitido aquí.
+    // Por ejemplo, si solo queremos permitir reservas entre las 14:00 y las 22:00:
+    const horarioInicio = 14;
+    const horarioFin = 22;
+    const [horaActual, minutosActual] = hora.split(":");
+    const horaInt = parseInt(horaActual);
+    const minutosInt = parseInt(minutosActual);
+    if (horaInt >= horarioInicio && horaInt <= horarioFin) {
+      return true;
+    }
+    return false;
+ };
+
+ const handleTimeChange = (event) => {
+    const horaSeleccionada = event.target.value;
+    if (esHoraReservable(horaSeleccionada)) {
+      setDatos({
+        ...datos,
+        [event.target.name]: horaSeleccionada,
+      });
+    } else {
+      alert("Lo sentimos, esta hora no está disponible para reservas.");
+    }
+ };
+
+//   aqui termina el nuevo codigo 
+
+
 
   return (
     <div className="formContainer">
@@ -85,19 +120,21 @@ export const Formulario = () => {
           value={datos.fecha}
           onChange={handleChange}
         />
+        
          <label htmlFor="hora">Hora:</label>
         <input
           type="time"
           id="hora"
           name="hora"
           value={datos.hora}
-          onChange={handleChange}
+          onChange={handleTimeChange}
         />
         <button type="submit">Enviar</button>
       </form>
     </div>
   );
 };
+
 
 export default Formulario;
 
