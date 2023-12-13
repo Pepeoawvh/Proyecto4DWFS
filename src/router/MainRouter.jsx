@@ -13,7 +13,7 @@ export const MainRouter = () => {
      <Route exact path='/Menu/:idProducto' element={<ProductoPorId/>} />
      <Route exact path='*' element={<Error404/>} />
 
-     
+
 
      </Routes>
   

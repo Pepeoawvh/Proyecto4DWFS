@@ -46,10 +46,9 @@ export const Formulario = () => {
   // aqui va el nuevo codigo de limitación de horario de reserva 
 
   const esHoraReservable = (hora) => {
-    // Define el horario de reserva permitido aquí.
-    // Por ejemplo, si solo queremos permitir reservas entre las 14:00 y las 22:00:
+   
     const horarioInicio = 14;
-    const horarioFin = 22;
+    const horarioFin = 21;
     const [horaActual, minutosActual] = hora.split(":");
     const horaInt = parseInt(horaActual);
     const minutosInt = parseInt(minutosActual);
@@ -57,7 +56,7 @@ export const Formulario = () => {
       return true;
     }
     return false;
- };
+ }; 
 
  const handleTimeChange = (event) => {
     const horaSeleccionada = event.target.value;
@@ -109,8 +108,11 @@ export const Formulario = () => {
           type="number"
           id="personas"
           name="personas"
+          min="2"
+          max="6"
           value={datos.personas}
           onChange={handleChange}
+
         />
          <label htmlFor="fecha">Fecha:</label>
         <input
@@ -119,16 +121,28 @@ export const Formulario = () => {
           name="fecha"
           value={datos.fecha}
           onChange={handleChange}
+          min={new Date().toISOString().split('T')[0]}
         />
         
-         <label htmlFor="hora">Horario de reserva:(14:00 hrs hasta las 22:00 hrs)</label>
-        <input
-          type="time"
-          id="hora"
+
+         <label htmlFor="hora">Hora: (14:00 hrs hasta las 21:00 hrs)</label>
+       
+       <select id="hora"
+
           name="hora"
           value={datos.hora}
-          onChange={handleTimeChange}
-        />
+          onChange={handleTimeChange} >
+                <option>14:00hrs</option>
+                <option>15:00hrs</option>
+                <option>16:00hrs</option>
+                <option>17:00hrs</option>
+                <option>18:00hrs</option>
+                <option>19:00hrs</option>
+                <option>20:00hrs</option>
+                <option>21:00hrs</option>
+               
+       </select>
+
         <button type="submit">Enviar</button>
       </form>
     </div>
