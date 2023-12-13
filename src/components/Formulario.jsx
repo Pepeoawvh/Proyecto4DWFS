@@ -124,9 +124,11 @@ export const Formulario = () => {
           min={new Date().toISOString().split('T')[0]}
         />
         
+
          <label htmlFor="hora">Hora: (14:00 hrs hasta las 21:00 hrs)</label>
        
        <select id="hora"
+
           name="hora"
           value={datos.hora}
           onChange={handleTimeChange} >
