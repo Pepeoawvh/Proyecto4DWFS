@@ -85,6 +85,7 @@ export const Formulario = () => {
           name="nombre"
           value={datos.nombre}
           onChange={handleChange}
+          placeholder="Ej: Juan Gabriel"
         />
        
         <label htmlFor="telefono">Teléfono:</label>
@@ -94,6 +95,7 @@ export const Formulario = () => {
           name="telefono"
           value={datos.telefono}
           onChange={handleChange}
+          placeholder="Ej: 9 4321 5678"
         />
         <label htmlFor="correo">Correo:</label>
         <input
@@ -102,6 +104,7 @@ export const Formulario = () => {
           name="correo"
           value={datos.correo}
           onChange={handleChange}
+          placeholder="Ej: email@ratagamer.cl"
         />
         <label htmlFor="personas">Cantidad de personas:</label>
         <input
@@ -112,6 +115,7 @@ export const Formulario = () => {
           max="6"
           value={datos.personas}
           onChange={handleChange}
+          placeholder="Ej: 5"
 
         />
          <label htmlFor="fecha">Fecha:</label>
@@ -122,16 +126,19 @@ export const Formulario = () => {
           value={datos.fecha}
           onChange={handleChange}
           min={new Date().toISOString().split('T')[0]}
+          
+          
         />
         
 
-         <label htmlFor="hora">Hora: (14:00 hrs hasta las 21:00 hrs)</label>
+         <label htmlFor="hora">Horarios: (Disponible de 14:00 hrs hasta 21:00 hrs)</label>
        
        <select id="hora"
 
           name="hora"
           value={datos.hora}
-          onChange={handleTimeChange} >
+          onChange={handleTimeChange} 
+          class="hora-select">
                 <option>14:00hrs</option>
                 <option>15:00hrs</option>
                 <option>16:00hrs</option>
@@ -143,7 +150,7 @@ export const Formulario = () => {
                
        </select>
 
-        <button type="submit">Enviar</button>
+        <button type="submit">Reservar</button>
       </form>
     </div>
   );

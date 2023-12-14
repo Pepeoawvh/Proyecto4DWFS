@@ -16,13 +16,15 @@ import { Card, Card2 } from './Cards';
 
  return (
 <> 
-      <div className="bannerContainer">
-        <div className='bannerImgRatita'></div>
-        
-        <div className="bannerRight" onClick={handleClick} >
-        {isCard2 ? <Card2 /> : <Card />}
-        </div>
+<div className="bannerContainer">
+      <div className="centrar-imagen">
+        <img
+          src="src/assets/img/Banners/Bienvenido.png"
+          alt="Banner"
+          className="bannerImgRatita"
+        />
       </div>
+    </div>
 </>
 
   

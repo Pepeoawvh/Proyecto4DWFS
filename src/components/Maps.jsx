@@ -24,7 +24,7 @@ class Map extends React.Component {
  }
  
  render() {
-    return <div id="map" style={{ width: '100%', height: '400px' }} />;
+    return <div id="map" style={{ width: '400px', height: '400px', margin:'150px'}} />;
  }
 }
  
