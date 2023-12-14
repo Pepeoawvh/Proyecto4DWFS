@@ -12,7 +12,7 @@ class Map extends React.Component {
     mapLoader.load().then(() => {
       const map = new google.maps.Map(document.getElementById('map'), {
         center: { lat: -33.39323806762695, lng: -70.50421905517578 },
-        zoom: 14,
+        zoom: 13,
       });
  
       const marker = new google.maps.Marker({
