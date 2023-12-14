@@ -6,7 +6,7 @@ export const SobreNosotros = () => {
   return (
     <>
       <Navbar />
-      <h1>Nosotros</h1>
+      {/* <h1>Nosotros</h1> */}
       <Map/>
  
    
