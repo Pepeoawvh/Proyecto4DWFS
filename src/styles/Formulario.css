@@ -1,56 +1,90 @@
 h1 {
     text-align: center;
-    color: rgb(204, 143, 12);
-}
-
-.formContainer {
+    color: rgb(251, 245, 245);
+  }
+  
+  .formContainer {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-}
-
-form {
+  }
+  
+  form {
     display: grid;
-    color: rgb(241, 191, 9);
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.1fr;
-    width: 500pxvw;
-    border: solid 3px white;
+    color: rgb(255, 255, 255);
+    grid-template-columns: 500px;
+    grid-template-rows: repeat(6, minmax(40px, auto));
+    max-width: 1000px; 
+    
     padding: 20px;
-    border-radius: 30px;
-}
-
-input {
-    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px; 
+  }
+  
+  input {
+    border-radius: 10px;
     margin-bottom: 5px;
     height: 30px;
-    background-color: white;
-    border: solid white 2px;
-    color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: solid 2px white;
+    color: rgb(229, 229, 229);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    color: black;
-
-}
-
-button {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
+    font-size: 16px; 
+    text-align: left;
+    padding-left: 15px;
+  }
+  
+  button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
     margin-top: 10px;
-    border-radius: 15px;
+    border-radius: 10px; 
     height: 30px;
-    background-color: rgb(241, 191, 9);
-    color: black;
-    border: solid white 2px;
+    background-color: rgb(56, 112, 0);
+    color: rgb(255, 255, 255);
+    border: solid 2px white;
     transition: 0.3s;
-}
-
-label {
-    margin-top: 5px;
-}
-
-button:hover {
+  }
+  
+  label {
+    margin-top: 2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  
+  button:hover {
     cursor: pointer;
     background-color: rgb(241, 144, 9);
+  }
+  
+
+  /* Estilo para cambiar el color del icono de calendario */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  margin-right: 10px;
+}
+
+/* Estilos para el selector de horas */
+.hora-select {
+  appearance: none;
+  padding: 4px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  width: 300px;
+}
+
+.hora-select:hover {
+  border-color: #aaa;
+}
+
+.hora-select:focus {
+  outline: none;
+  border-color: #555;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
