@@ -22,7 +22,7 @@ import '../styles/textos.css'
           <a href="#"><img src="src\assets\img\icons\ig.png" alt="Instagram" /></a>
           <a href="#"><img src="src\assets\img\icons\fb.png" alt="Facebook" /></a>
           <a href="#"><img src="src\assets\img\icons\wsp.webp" alt="WhatsApp" /></a>
-          <a href="#"><img src="src\assets\img\icons\admin.png" alt="Admin Panel" /></a>
+          <a href="#"><img src="src/assets/img/icons/admin.png" alt="Admin Panel" /></a>
         </div>
       </div>
     </footer>
