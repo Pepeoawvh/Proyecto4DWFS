@@ -22,10 +22,17 @@
   max-height: 100%;
   width: auto;
   height: auto;
-  margin-top: -30px;
-  /* Mueve la imagen 30px hacia arriba */
+  animation: fadeIn 3s ease-out 1 both;
 }
 
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
 
 
 @media screen and (max-width: 768px) {
