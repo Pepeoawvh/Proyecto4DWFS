@@ -1,29 +1,30 @@
 /* estilos para textos que se usaran en todo el sitio */
 /* NO DETERMINAR COLORES AQUI, HACERLO CON OTRAS CLASES ESPECIFICAS */
-.tituloPromocion{
+.tituloPromocion {
     font-family: bebas neue;
     letter-spacing: 3px;
     font-size: 30px;
     font-weight: bold;
 }
 
-.tituloProducto{
+.tituloProducto {
     font-size: 20px;
     font-weight: bold;
 }
-.descripcionProducto{
+
+.descripcionProducto {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     letter-spacing: 0px;
     font-size: 17px;
 }
 
-.textoJumbo{
+.textoJumbo {
     font-size: 36px;
     font-weight: bold;
 }
-.menuTitle{
 
-}
+.menuTitle {}
+
 /* Estilos Utiles para Colores de Texto */
 .textoRojo {
     color: red;
@@ -72,4 +73,3 @@
 .textoNegro {
     color: black;
 }
-

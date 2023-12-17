@@ -1,32 +1,32 @@
 @media screen and (min-width: 768px) {
 
-h1 {
+  h1 {
     text-align: center;
     color: rgb(251, 245, 245);
   }
-  
+
   .formContainer {
     display: grid;
     grid-template-columns: 1fr;
 
     justify-items: center;
-    
+
   }
-  
+
   form {
     display: grid;
     color: rgb(255, 255, 255);
     grid-template-columns: 500px;
     grid-template-rows: repeat(6, minmax(40px, auto));
-    max-width: 1000px; 
-    align-items: center ;
+    max-width: 1000px;
+    align-items: center;
     align-content: center;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5);
     border: 2px solid rgb(0, 0, 0);
-    border-radius: 20px; 
+    border-radius: 20px;
   }
-  
+
   input {
     border-radius: 10px;
     margin-bottom: 5px;
@@ -35,11 +35,11 @@ h1 {
     border: solid 2px white;
     color: rgb(229, 229, 229);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 16px; 
+    font-size: 16px;
     text-align: left;
     padding-left: 15px;
   }
-  
+
   button {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
@@ -52,25 +52,25 @@ h1 {
     border: solid 2px white;
     transition: 0.3s;
   }
-  
+
   label {
     margin-top: 2px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
     font-size: 16px;
   }
-  
+
   button:hover {
     cursor: pointer;
     background-color: rgb(241, 144, 9);
   }
-  
+
 
   /* Estilo para cambiar el color del icono de calendario */
-input[type="date"]::-webkit-calendar-picker-indicator {
-  filter: invert(1);
-  margin-right: 10px;
-}
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    margin-right: 10px;
+  }
 
 /* Estilos para el selector de horas */
 .hora-select {
@@ -89,15 +89,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   
 }
 
-.hora-select:hover {
-  border-color: #aaa;
-}
+  .hora-select:hover {
+    border-color: #aaa;
+  }
 
-.hora-select:focus {
-  outline: none;
-  border-color: #555;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-}
+  .hora-select:focus {
+    outline: none;
+    border-color: #555;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -111,8 +111,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px; /* Ajusta el espacio entre el formulario y la imagen */
-    
+    margin-top: 20px;
+    /* Ajusta el espacio entre el formulario y la imagen */
+
 
   }
 
@@ -127,7 +128,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     box-sizing: border-box;
     margin-left: 40px;
     margin-bottom: 60px;
-    
+
   }
 
   input {
@@ -158,7 +159,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     border: solid 2px white;
     transition: 0.3s;
     box-sizing: border-box;
-    display: inline-block; 
+    display: inline-block;
   }
 
   label {
@@ -205,14 +206,14 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   }
 
-  .horat{
+  .horat {
     font-size: 15px;
-   
+
 
   }
 
   /* Estilo para la imagen */
   .jumboFormSplit {
-     display: none;
+    display: none;
   }
 }

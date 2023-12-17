@@ -1,60 +1,52 @@
-
 .reserva {
-    background-image: url('../assets/img/backgrounds/bg1.png');
-    height: 100vh;
-    background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir todo el contenedor */
-  background-position: center center; /* Centra la imagen de fondo */
-   
-    
-    
-    }
-  
-  
-  .jumboForm {
-    display: grid;
-    grid-template-columns: 1fr 1.3fr;
-    padding: 10px;
-    margin-top: 70px;
-  }
-  
-  .jumboFormContainer {
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.025);
-  }
-  
+  background-image: url('../assets/img/backgrounds/bg1.png');
+  height: 100vh;
+  background-size: cover;
+  /* Ajusta el tamaño de la imagen de fondo para cubrir todo el contenedor */
+  background-position: center center;
+  /* Centra la imagen de fondo */
+}
 
+.jumboForm {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  padding: 10px;
+  margin-top: 70px;
+}
 
-  .jumboFormSplit {
-    position: relative;
-    border-radius: 20px;
-    overflow: hidden;
-  }
-  
-  .jumboFormSplit::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/src/assets/img/Banners/reserva.jpeg);
-    background-color: rgba(0, 0, 0, 0.8); 
+.jumboFormContainer {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.025);
+}
 
-    background-size: cover;
-    background-position: center;
-    border-radius: 100px;
-  }
-  
-  .jumboFormSplit::after {
-    content: '< Reservas/ >';
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
+.jumboFormSplit {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
 
-  }
+.jumboFormSplit::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/img/Banners/reserva.jpeg);
+  background-color: rgba(0, 0, 0, 0.8);
+  background-size: cover;
+  background-position: center;
+  border-radius: 100px;
+}
 
+.jumboFormSplit::after {
+  content: '< Reservas/ >';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
 
+}

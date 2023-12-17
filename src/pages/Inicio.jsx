@@ -13,12 +13,7 @@ export const Inicio = () => {
         <Navbar />
         <Banner />
         <Footer />
-
-
-        
       </div>
     </>
   );
 };
-
-

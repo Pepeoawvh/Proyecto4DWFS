@@ -1,6 +1,6 @@
 
 .sobrenosotros {
-    background-image: url('../assets/img/backgrounds/bg3.png');
+    background-image: url('/img/backgrounds/bg3.png');
     height: 100vh;
     background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir todo el contenedor */
     background-position: center center; /* Centra la imagen de fondo */
