@@ -70,3 +70,48 @@
     margin-bottom: 60px;
 
   }
+
+/* Consulta de medios para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  .containermap {
+    flex-direction: column; /* Cambio a dirección de columna */
+    align-items: center; /* Centrar elementos */
+    padding: 40px; /* Espaciado interno ajustado */
+    margin-bottom: 20px;
+    height: 700px;
+  }
+
+  .left-section{
+    margin-bottom: -200px;
+    
+  }
+  .right-section {
+    padding: 10px; /* Espaciado interno ajustado */
+    text-align: center; /* Centrar texto */
+    
+  }
+
+
+  
+  .whatsapp-button {
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+    background-color: rgb(0, 170, 0);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    display: block;
+  }
+
+  .titulo1x {
+    font-size: 30px; /* Reducción del tamaño de fuente */
+    margin-bottom: 10px; /* Reducción del margen inferior */
+  }
+
+  .descripcionp1 {
+    font-size: 16px; /* Reducción del tamaño de fuente */
+    margin-bottom: 20px; /* Reducción del margen inferior */
+  }
+}
