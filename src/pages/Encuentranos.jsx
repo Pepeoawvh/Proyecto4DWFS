@@ -1,8 +1,9 @@
 import { Navbar } from "../components/Navbar";
 import Map from "../components/Maps";
 import { Footer } from "../components/Footer";
+import "../styles/map.css";
 
-export const SobreNosotros = () => {
+export const Encuentranos = () => {
   return (
     <><div className="sobrenosotros">
      <Navbar />
