@@ -1,5 +1,5 @@
 .menu{
-   background-image: url(../../public/img/backgrounds/bg2.png);
+   background-image: url(/img/backgrounds/bg2.png);
    height: 100vh; 
    background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir todo el contenedor */
    background-position: center center; /* Centra la imagen de fondo */
@@ -50,7 +50,7 @@
    width: 200px;
    height: 200px;
    object-fit: cover;
-   background-image: url(../../public/img/Productos/pizzaxbox.png);
+   background-image: url(/img/Productos/pizzaxbox.png);
    background-repeat: no-repeat;
    background-size: contain;
    background-position: center;
@@ -62,7 +62,7 @@
    width: 200px;
    height: 200px;
    object-fit: cover;
-   background-image: url(../../public/img/Productos/pizzaNintendo.png);
+   background-image: url(/img/Productos/pizzaNintendo.png);
    background-repeat: no-repeat;
    background-size: contain;
    background-position: center;
@@ -73,7 +73,7 @@
    width: 200px;
    height: 200px;
    object-fit: cover;
-   background-image: url(../../public/img/Productos/pizzaPs.png);
+   background-image: url(/img/Productos/pizzaPs.png);
    background-repeat: no-repeat;
    background-size: contain;
    background-position: center;
@@ -161,7 +161,7 @@
       width: 100%;
       height: 200px;
       object-fit: cover;
-      background-image: url(src/assets/img/Productos/pizzaxbox.png);
+      background-image: url(/img/Productos/pizzaxbox.png);
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
@@ -172,7 +172,7 @@
       width: 100%;
       height: 200px;
       object-fit: cover;
-      background-image: url(src/assets/img/Productos/pizzaNintendo.png);
+      background-image: url(/img/Productos/pizzaNintendo.png);
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
@@ -182,7 +182,7 @@
       width: 100%;
       height: 200px;
       object-fit: cover;
-      background-image: url(src/assets/img/Productos/pizzaPs.png);
+      background-image: url(/img/Productos/pizzaPs.png);
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;

@@ -1,5 +1,5 @@
 .home {
-  background-image: url(../../public/img/backgrounds/bg1.png);
+  background-image: url(/img/backgrounds/bg1.png);
   height: 100vh;
   background-size: cover;
   /* Ajusta el tamaño de la imagen de fondo para cubrir todo el contenedor */
