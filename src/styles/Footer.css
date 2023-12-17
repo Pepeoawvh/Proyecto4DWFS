@@ -7,8 +7,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: fixed; /* Fija el footer en la parte inferior de la ventana */
-  bottom: 0; /* Lo coloca al final */
+  position: fixed;
+  /* Fija el footer en la parte inferior de la ventana */
+  bottom: 0;
+  /* Lo coloca al final */
 
   left: 0;
   width: 100%;

@@ -7,18 +7,17 @@ import { Footer } from "../components/Footer";
 export const Reserva = () => {
   return (
     <>
-    <div className="reserva">
-      <Navbar />
+      <div className="reserva">
+        <Navbar />
 
-      <div className="jumboForm">
-        <div className="jumboFormContainer">
-          <Formulario />
+        <div className="jumboForm">
+          <div className="jumboFormContainer">
+            <Formulario />
+          </div>
+          <div className="jumboFormSplit"> </div>
         </div>
-        <div className="jumboFormSplit"> </div>
+        <Footer />
       </div>
-      <Footer />
-      </div>
-
     </>
   );
 };
