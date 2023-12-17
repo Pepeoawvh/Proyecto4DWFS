@@ -76,11 +76,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .hora-select {
   appearance: none;
   padding: 4px;
-  font-size: 15px;
-  border: 1px solid #ccc;
+  font-size: 18px;
+  border: 1px solid #303030;
   border-radius: 5px;
-  background-color: #fff;
-  color: #333;
+  background-color: #242424;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #ffffff;
+  font-weight: 700;
   width: 500px;
 }
 
@@ -153,6 +155,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     border: solid 2px white;
     transition: 0.3s;
     box-sizing: border-box;
+    display: inline-block; 
   }
 
   label {
@@ -175,14 +178,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
   /* Estilos para el selector de horas */
   .hora-select {
-    width: 70%;
+    width: 100%;
     padding: 8px;
     font-size: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #303030;
     border-radius: 5px;
-    background-color: #fff;
-    color: #333;
+    background-color: #242424;
+    color: #ffffff;
     margin-bottom: 10px;
+    font-weight: 700;
     box-sizing: border-box;
   }
 
@@ -194,6 +198,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     outline: none;
     border-color: #555;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .horat{
+    font-size: 15px;
+   
+
   }
 
   /* Estilo para la imagen */

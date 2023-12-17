@@ -131,7 +131,7 @@ export const Formulario = () => {
         />
         
 
-         <label htmlFor="hora">Horarios: (Disponible de 14:00 hrs hasta 21:00 hrs)</label>
+         <label htmlFor="hora" className="horat">Horarios: (Disponible de 14:00 hrs hasta 21:00 hrs)</label>
        
        <select id="hora"
 
