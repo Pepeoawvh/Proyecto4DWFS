@@ -27,7 +27,7 @@ class Map extends React.Component {
  render() {
   return (
     <div style={{ display: 'flex', justifyContent: 'flex-start' }}>
-      <div className='mapa' id="map" style={{ width: '400px', height: '400px', margin: '0px'}} />
+      <div id="map" style={{ width: '30vw', height: '25vw', margin: '0px'}} />
      
     </div>
   );
