@@ -12,7 +12,7 @@ import 'slick-carousel/slick/slick-theme.css';
     <section className='cards'>
       <div className="pizza1">
 
-      <h2 className='tituloCard'>PIZZA PEPPERONI XBOX/></h2> 
+      <h2 className='tituloCard'>PIZZA PEPPERONI XBOX/</h2> 
       <div className='imagen1'/>
       <p className='ingredientes'>Ingredientes: Queso Mozarella, Salsa de Tomate y Pepperoni Americano</p>
 
@@ -22,7 +22,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
     <div className="pizza2">
 
-      <h2 className='tituloCard'>PIZZA VEGAN NINTENDO/></h2>
+      <h2 className='tituloCard'>PIZZA VEGAN NINTENDO/</h2>
       <div className='imagen2'/>
       <p className='ingredientes'>Ingredientes: Queso Mozarella, Salsa de Tomate, Choclo, Pimentón</p>
 
@@ -31,7 +31,7 @@ import 'slick-carousel/slick/slick-theme.css';
     </div>
 
     <div className="pizza3">
-      <h2 className='tituloCard'>PIZZA ITALIAN PS4/></h2>
+      <h2 className='tituloCard'>PIZZA ITALIAN PS4/</h2>
       <div className='imagen3 '/>
       <p className='ingredientes'>Ingredientes: Queso Mozarella, Salsa de Tomate, Jamón, Tomate</p>
 
