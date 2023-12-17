@@ -7,12 +7,10 @@ export const Encuentranos = () => {
   return (
     <>
      <div className="sobrenosotros">
-    <>
-     <div className="sobrenosotros">
      <Navbar />
       <div className="containermap">
         <div className="left-section">
-          <p className="titulo1x"> ENCUENTRANOS/> </p>
+          <p className="titulo1x"> ENCUENTRANOS/ </p>
  
           <p className="descripcionp1">• Encuéntranos en Av. La Plaza 13405, Las Condes</p>
           <p className="descripcionp1">• Dudas contáctanos directamente por Whatsapp</p>
@@ -23,7 +21,6 @@ export const Encuentranos = () => {
 </button>        </div>
         <div className="right-section">
           <Map />
-          <Map />
         </div>
       </div>
       <Footer />
@@ -32,4 +29,3 @@ export const Encuentranos = () => {
    
   );
 };
- 
