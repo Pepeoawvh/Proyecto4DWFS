@@ -18,7 +18,7 @@ import { Card, Card2 } from './Cards';
 <div className="bannerContainer">
       <div className="centrar-imagen">
         <img
-          src="../../public/img/Banners/Bienvenido.png"
+          src="/img/Banners/Bienvenido.png"
           alt="Banner"
           className="bannerImgRatita"
         />
