@@ -17,6 +17,7 @@ header {
   grid-template-columns: 1fr;
   justify-items: center;
   padding: 10px;
+  height: 3;
 
 
 
@@ -102,22 +103,24 @@ a:hover {
 
   
   header {
-    display: flex; /* Cambiar a flexbox para centrar el Navbar */
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Cambiar a flexbox para centrar el Navbar */
     justify-content: center; /* Centrar horizontalmente el Navbar */
     align-items: center; /* Centrar verticalmente el Navbar */
     margin-bottom: 130px;
   }
 
   .logo {
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
     margin-right: auto; /* Empujar el logo hacia la izquierda */
   }
 
   nav {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
     margin-left: auto; /* Empujar las opciones del menú hacia la izquierda */
     margin-top: 130px;
-
     border: solid rgba(122, 120, 120, 0)2px;
     border-radius: 10px;
     height: 150px;
@@ -126,7 +129,12 @@ a:hover {
   }
 
   nav ul {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+    text-align: center;
+    gap: 5px;
     flex-direction: column; /* Cambiar dirección a columna */
     align-items: flex-start; /* Justificar las opciones del menú a la izquierda */
     padding: 0;
@@ -134,7 +142,12 @@ a:hover {
   }
 
   nav ul li {
-    margin-bottom: 10px; /* Agregar espacio entre elementos del menú */
+    border: solid 1px white;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 10px;
   }
 
   nav ul li:last-child {
