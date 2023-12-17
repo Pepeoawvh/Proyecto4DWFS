@@ -1,6 +1,11 @@
 .menu{
    background-image: url(../assets/img/backgrounds/bg2.png);
    height: 100vh; 
+   background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir todo el contenedor */
+   background-position: center center; /* Centra la imagen de fondo */
+    
+    
+    
 }
 
 
@@ -9,7 +14,7 @@
    justify-content: space-around;
    flex-wrap: wrap;
    padding: 50px;
-   margin-top: 30px;
+   margin-top: 110px;
 }
 
 .pizza1 {

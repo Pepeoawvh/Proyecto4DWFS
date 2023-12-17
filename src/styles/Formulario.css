@@ -6,7 +6,9 @@ h1 {
   .formContainer {
     display: grid;
     grid-template-columns: 1fr;
+
     justify-items: center;
+    
   }
   
   form {
@@ -15,7 +17,8 @@ h1 {
     grid-template-columns: 500px;
     grid-template-rows: repeat(6, minmax(40px, auto));
     max-width: 1000px; 
-    align-items: ;
+    align-items: center ;
+    align-content: center;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5); 
     border: 2px solid rgb(0, 0, 0);
@@ -76,7 +79,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   border-radius: 5px;
   background-color: #fff;
   color: #333;
-  width: 300px;
+  width: 500px;
+  text-align: center;
 }
 
 .hora-select:hover {
@@ -87,4 +91,108 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   outline: none;
   border-color: #555;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+@media screen and (max-width: 768px) {
+  h1 {
+    text-align: center;
+    color: rgb(251, 245, 245);
+  }
+
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Ajusta el espacio entre el formulario y la imagen */
+  }
+
+  form {
+    color: rgb(255, 255, 255);
+    width: 80%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Ajusta el espacio entre el formulario y la imagen */
+  }
+
+  input {
+    width: 70%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: solid 2px white;
+    color: rgb(229, 229, 229);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 15px;
+    box-sizing: border-box;
+  }
+
+  button {
+    width: 70%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 40px;
+    background-color: rgb(56, 112, 0);
+    color: rgb(255, 255, 255);
+    border: solid 2px white;
+    transition: 0.3s;
+    box-sizing: border-box;
+  }
+
+  label {
+    margin-top: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background-color: rgb(241, 144, 9);
+  }
+
+  /* Estilo para cambiar el color del icono de calendario */
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    margin-right: 10px;
+  }
+
+  /* Estilos para el selector de horas */
+  .hora-select {
+    width: 70%;
+    padding: 8px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  .hora-select:hover {
+    border-color: #aaa;
+  }
+
+  .hora-select:focus {
+    outline: none;
+    border-color: #555;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Estilo para la imagen */
+  .responsive-image {
+     display: none;
+  }
 }

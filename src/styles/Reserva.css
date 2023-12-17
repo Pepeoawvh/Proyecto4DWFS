@@ -2,11 +2,17 @@
 .reserva {
     background-image: url('../assets/img/backgrounds/bg1.png');
     height: 100vh;
-  }
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir todo el contenedor */
+  background-position: center center; /* Centra la imagen de fondo */
+   
+    
+    
+    }
+  
   
   .jumboForm {
     display: grid;
-    grid-template-columns: 2fr 1.3fr;
+    grid-template-columns: 1fr 1.3fr;
     padding: 10px;
     margin-top: 70px;
   }
