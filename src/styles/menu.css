@@ -3,9 +3,7 @@
    height: 100vh; 
    background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir todo el contenedor */
    background-position: center center; /* Centra la imagen de fondo */
-    
-    
-    
+
 }
 
 
@@ -127,6 +125,8 @@
 
 /* media query de las tarjetas */
 @media screen and (max-width: 800px) {
+
+
 
 
    .cards {

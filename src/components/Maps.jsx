@@ -1,5 +1,6 @@
 import React from 'react';
 import { Loader } from '@googlemaps/js-api-loader';
+import '../styles/map.css'
  
 const mapLoader = new Loader({
  apiKey: 'AIzaSyCS692xCkJWERPdUeDWAOya6GJrknP2qbU',
@@ -24,7 +25,12 @@ class Map extends React.Component {
  }
  
  render() {
-    return <div id="map" style={{ width: '400px', height: '400px', margin:'150px'}} />;
+  return (
+    <div style={{ display: 'flex', justifyContent: 'flex-start' }}>
+      <div className='mapa' id="map" style={{ width: '400px', height: '400px', margin: '150px'}} />
+     
+    </div>
+  );
  }
 }
  
