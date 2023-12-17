@@ -7,6 +7,8 @@ export const Encuentranos = () => {
   return (
     <>
      <div className="sobrenosotros">
+    <>
+     <div className="sobrenosotros">
      <Navbar />
       <div className="containermap">
         <div className="left-section">
@@ -20,6 +22,7 @@ export const Encuentranos = () => {
   </a>
 </button>        </div>
         <div className="right-section">
+          <Map />
           <Map />
         </div>
       </div>
