@@ -15,7 +15,7 @@ h1 {
     grid-template-columns: 500px;
     grid-template-rows: repeat(6, minmax(40px, auto));
     max-width: 1000px; 
-    
+    align-items: ;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5); 
     border: 2px solid rgb(0, 0, 0);
