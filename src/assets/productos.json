@@ -27,21 +27,21 @@
         "color": "blue"
     },
     {
-        "id": 2,
+        "id": 3,
         "img": "pizzanes.png",
         "categoría": "Pizza",
-        "nombre": "PIZZA NES",
+        "nombre": "PIZZA SNES",
         "ingredientes" : [
             "Salsa de Tomate",
             "Queso Mozzarela",
-            "Salami",
-            "Pimientos"
+            "Salame",
+            "Pimiento"
         ],
         "precio": "10.990", 
         "color": "orange"
     },
     {
-        "id": 9,
+        "id": 4,
         "img": "pizzaplaystation.png",
         "categoría": "Pizza",
         "nombre": "PIZZA PLAYSTATION",
@@ -55,10 +55,10 @@
         "color": "brown"
     },
     {
-        "id": 10,
+        "id": 5,
         "img": "hamburguesakong.png",
         "categoría": "Hamburguesa",
-        "nombre": "Hamburguesa Kong",
+        "nombre": "HAMBURGUESA KONG",
         "ingredientes" : [
             "Carne de res",
             "Lechuga",
@@ -69,38 +69,10 @@
         "color": "teal"
     },
     {
-        "id": 5,
-        "img": "cocacola.png",
-        "categoría": "Bebida",
-        "nombre": "Coca-Cola",
-        "ingredientes" : [
-            "Agua carbonatada",
-            "Azúcar",
-            "Ácido fosfórico",
-            "Cafeína"
-        ],
-        "precio": "1.990", 
-        "color": "cyan"
-    },
-    {
         "id": 6,
-        "img": "pepsi.png",
-        "categoría": "Bebida",
-        "nombre": "Pepsi",
-        "ingredientes" : [
-            "Agua carbonatada",
-            "Jarabe de maíz",
-            "Ácido cítrico",
-            "Cafeína"
-        ],
-        "precio": "1.990", 
-        "color": "magenta"
-    },
-    {
-        "id": 3,
         "img": "palitosdeajo.png",
         "categoría": "Entrada",
-        "nombre": "Palitos de Ajo",
+        "nombre": "PALITOS DE AJO - 8 UNIDADES",
         "ingredientes" : [
             "Masa de pan",
             "Ajo",
@@ -111,13 +83,13 @@
         "color": "yellow"
     },
     {
-        "id": 4,
+        "id": 7,
         "img": "queso.png",
         "categoría": "Entrada",
-        "nombre": "Plato de Queso",
+        "nombre": "PLATO DE QUESO",
         "ingredientes" : [
             "Quesos variados",
-            "Frutas secas",
+            "Frutas secos",
             "Mermelada"
         ],
         "precio": "6.990", 
@@ -127,7 +99,7 @@
         "id": 8,
         "img": "combocolossus.png",
         "categoría": "Combo",
-        "nombre": "Combo Colossus",
+        "nombre": "COMBO COLOSSUS",
         "ingredientes" : [
             "Pizza Pepperoni",
             "Papas Fritas",
@@ -137,17 +109,36 @@
         "color": "purple"
     },
     {
-        "id": 11,
+        "id": 9,
         "img": "papitasmario.png",
         "categoría": "Acompañamiento",
-        "nombre": "Papitas Mario",
+        "nombre": "COMBO MARIO",
         "ingredientes" : [
-            "Papas",
-            "Sal",
-            "Aceite",
-            "Condimentos"
+            "Hamburguesa Queso",
+            "Papas fritas",
+            "Bebida (500ml)"
         ],
-        "precio": "3.990", 
+        "precio": "5.990", 
         "color": "lime"
+    },
+    {
+        "id": 10,
+        "img": "cocacola.png",
+        "categoría": "Bebida",
+        "nombre": "COCA-COLA 1.5 lt",
+        "ingredientes" : [
+        ],
+        "precio": "1.990", 
+        "color": "cyan"
+    },
+    {
+        "id": 11,
+        "img": "pepsi.png",
+        "categoría": "Bebida",
+        "nombre": "PEPSI 1.5 lt",
+        "ingredientes" : [
+        ],
+        "precio": "1.990", 
+        "color": "magenta"
     }
 ]

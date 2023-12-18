@@ -11,9 +11,9 @@ import useTrigger from './useTrigger'
 
 export const Navbar = () => {
  const [top, setTop] = useState(true);
- useTrigger('scroll', () => {
+  useTrigger('scroll', () => {
   setTop(window.scrollY === 0) 
-})
+ })
  useEffect(() => {
     const handleScroll = () => {
       setTop(window.scrollY === 0); 
