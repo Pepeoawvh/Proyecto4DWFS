@@ -1,6 +1,7 @@
 # # PROYECTO 4: La Ratita Gamer - App Restaurante. Bootcamp Desarrollo Web Fullstack UDD, Cohorte 10
 
-![Uploading ratapizza.png…]()
+
+![ratapizza](https://github.com/Pepeoawvh/Proyecto4DWFS/assets/140351890/8c2cee7b-ba6e-4977-b76a-3dab9261fdd6)
 
 
 ## **ÍNDICE**
