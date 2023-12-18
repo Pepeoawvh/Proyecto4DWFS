@@ -3,16 +3,20 @@
 import { Navbar } from "../components/Navbar";
 import { Banner } from "../components/Banner";
 import { Footer } from "../components/Footer";
+import { Carrusel } from "../components/Carrusel";
 
-import "../styles/textos.css";
 
 export const Inicio = () => {
   return (
     <>
       <div className="home">
         <Navbar />
+        <div className="containerInicio">
         <Banner />
+        <Carrusel/>
         <Footer />
+        </div>
+        
       </div>
     </>
   );

@@ -1,19 +1,12 @@
 /* Estilos para el contenedor principal del banner */
 .bannerContainer {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
   align-items: center;
-  justify-content: center;
-  height: 92.7vh;
+  justify-items: center;
+  height: 600px;
   /* Usar el 100% del alto de la ventana del navegador */
-}
-
-/* Estilos para centrar la imagen */
-.centrar-imagen {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 90%;
-  /* Utiliza el 100% del alto del contenedor */
 }
 
 /* Estilos para la imagen del banner */
@@ -34,7 +27,6 @@
   }
 }
 
-
 @media screen and (max-width: 768px) {
 
   /* Estilos para la imagen del banner */
@@ -43,7 +35,7 @@
     max-height: 100%;
     width: auto;
     height: auto;
-    margin-top: -30px;
+    margin-top: 120px;
     /* Mueve la imagen 30px hacia arriba */
   }
 
@@ -52,7 +44,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 70.7vh;
+    height: 50vh;
     /* Usar el 100% del alto de la ventana del navegador */
   }
 

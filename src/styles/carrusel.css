@@ -1,0 +1,51 @@
+.carrusel{
+    display: grid;
+    width: 100%;
+    height: 460px;
+    justify-items: center;
+    overflow: hidden;
+
+    /* padding-bottom: 80px; */
+
+}
+.carrusel img {
+    display: none;
+   }
+   
+   .carrusel img.activa {
+    display: flex;
+    width: 100%;
+    animation: slide 6s linear infinite; /* Animación que realiza el movimiento de las imágenes */
+   }
+/* parametros de animaciones */
+   @keyframes slide {
+    0% {
+        transform: translateX(100%); /* Inicia la imagen fuera del contenedor */
+    }
+    33% {
+        transform: translateX(0%); /* A medias del ciclo, la imagen aparece en el centro */
+    }
+    66% {
+        transform: translateX(0%); /* A medias del ciclo, la imagen sigue en el centro */
+    }
+    100% {
+        transform: translateX(-200%); /* Al final del ciclo, la imagen desaparece fuera del contenedor */
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+
+.carrusel{
+    align-self: flex-end;
+    width: 100%;
+    height: auto;
+    padding-bottom: 0px;
+
+}
+.carrusel img.activa {
+    width: 100%;
+    height: auto;
+}
+}
+
