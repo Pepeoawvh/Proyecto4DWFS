@@ -4,7 +4,8 @@
     height: 460px;
     justify-items: center;
     overflow: hidden;
-    padding-bottom: 90px;
+
+    /* padding-bottom: 80px; */
 
 }
 .carrusel img {
@@ -12,11 +13,11 @@
    }
    
    .carrusel img.activa {
-    display: block;
+    display: flex;
+    width: 100%;
     animation: slide 6s linear infinite; /* Animación que realiza el movimiento de las imágenes */
-
    }
-
+/* parametros de animaciones */
    @keyframes slide {
     0% {
         transform: translateX(100%); /* Inicia la imagen fuera del contenedor */
@@ -31,3 +32,20 @@
         transform: translateX(-200%); /* Al final del ciclo, la imagen desaparece fuera del contenedor */
     }
 }
+
+
+@media screen and (max-width: 800px) {
+
+.carrusel{
+    align-self: flex-end;
+    width: 100%;
+    height: auto;
+    padding-bottom: 0px;
+
+}
+.carrusel img.activa {
+    width: 100%;
+    height: auto;
+}
+}
+
