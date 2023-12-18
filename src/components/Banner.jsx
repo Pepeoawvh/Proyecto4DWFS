@@ -22,7 +22,3 @@ import '../styles/textos.css'
 
  );
 };
-
-
- 
-
