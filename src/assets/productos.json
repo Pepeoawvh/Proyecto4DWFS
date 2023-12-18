@@ -11,7 +11,6 @@
         ],
         "precio": "9.990", 
         "color": "red"
-
     },
     {
         "id": 2,
@@ -26,67 +25,129 @@
         ],
         "precio": "11.990" , 
         "color": "blue"
-
-
     },
     {
-        "id": 3,
-        "img": "pizzaxbox.png",
+        "id": 2,
+        "img": "pizzanes.png",
         "categoría": "Pizza",
-        "nombre": "PIZZA PEPPERONI XBOX",
+        "nombre": "PIZZA NES",
         "ingredientes" : [
             "Salsa de Tomate",
             "Queso Mozzarela",
-            "Pepperoni Americano"
+            "Salami",
+            "Pimientos"
         ],
-        "precio": 9990 , 
-        "color": "yellow"
-
-
+        "precio": "10.990", 
+        "color": "orange"
     },
     {
-        "id": 4,
-        "img": "pizzaxbox.png",
+        "id": 9,
+        "img": "pizzaplaystation.png",
         "categoría": "Pizza",
-        "nombre": "PIZZA PEPPERONI XBOX",
+        "nombre": "PIZZA PLAYSTATION",
         "ingredientes" : [
             "Salsa de Tomate",
             "Queso Mozzarela",
-            "Pepperoni Americano"
+            "Jamón",
+            "Aceitunas"
         ],
-        "precio": 9990 , 
-        "color": "green"
-
-
+        "precio": "12.990", 
+        "color": "brown"
+    },
+    {
+        "id": 10,
+        "img": "hamburguesakong.png",
+        "categoría": "Hamburguesa",
+        "nombre": "Hamburguesa Kong",
+        "ingredientes" : [
+            "Carne de res",
+            "Lechuga",
+            "Tomate",
+            "Salsa especial"
+        ],
+        "precio": "8.990", 
+        "color": "teal"
     },
     {
         "id": 5,
-        "img": "pizzaxbox.png",
-        "categoría": "Pizza",
-        "nombre": "PIZZA PEPPERONI XBOX",
+        "img": "cocacola.png",
+        "categoría": "Bebida",
+        "nombre": "Coca-Cola",
         "ingredientes" : [
-            "Salsa de Tomate",
-            "Queso Mozzarela",
-            "Pepperoni Americano"
+            "Agua carbonatada",
+            "Azúcar",
+            "Ácido fosfórico",
+            "Cafeína"
         ],
-        "precio": 9990 , 
+        "precio": "1.990", 
         "color": "cyan"
-
-
     },
     {
         "id": 6,
-        "img": "pizzaxbox.png",
-        "categoría": "Pizza",
-        "nombre": "PIZZA PEPPERONI XBOX",
+        "img": "pepsi.png",
+        "categoría": "Bebida",
+        "nombre": "Pepsi",
         "ingredientes" : [
-            "Salsa de Tomate",
-            "Queso Mozzarela",
-            "Pepperoni Americano"
+            "Agua carbonatada",
+            "Jarabe de maíz",
+            "Ácido cítrico",
+            "Cafeína"
         ],
-        "precio": 9990 , 
+        "precio": "1.990", 
         "color": "magenta"
-
-
+    },
+    {
+        "id": 3,
+        "img": "palitosdeajo.png",
+        "categoría": "Entrada",
+        "nombre": "Palitos de Ajo",
+        "ingredientes" : [
+            "Masa de pan",
+            "Ajo",
+            "Queso",
+            "Mantequilla"
+        ],
+        "precio": "4.990", 
+        "color": "yellow"
+    },
+    {
+        "id": 4,
+        "img": "queso.png",
+        "categoría": "Entrada",
+        "nombre": "Plato de Queso",
+        "ingredientes" : [
+            "Quesos variados",
+            "Frutas secas",
+            "Mermelada"
+        ],
+        "precio": "6.990", 
+        "color": "green"
+    },
+    {
+        "id": 8,
+        "img": "combocolossus.png",
+        "categoría": "Combo",
+        "nombre": "Combo Colossus",
+        "ingredientes" : [
+            "Pizza Pepperoni",
+            "Papas Fritas",
+            "Bebida (500ml)"
+        ],
+        "precio": "19.990", 
+        "color": "purple"
+    },
+    {
+        "id": 11,
+        "img": "papitasmario.png",
+        "categoría": "Acompañamiento",
+        "nombre": "Papitas Mario",
+        "ingredientes" : [
+            "Papas",
+            "Sal",
+            "Aceite",
+            "Condimentos"
+        ],
+        "precio": "3.990", 
+        "color": "lime"
     }
 ]

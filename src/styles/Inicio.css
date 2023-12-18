@@ -1,6 +1,6 @@
 .home {
   background-image: url(/img/backgrounds/bg1.png);
-  height: 90vh;
+  height: 130vh;
   background-size: cover;
   /* Ajusta el tamaño de la imagen de fondo para cubrir todo el contenedor */
   background-position: center center;

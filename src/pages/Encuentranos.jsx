@@ -17,7 +17,7 @@ export const Encuentranos = () => {
             <p className="descripcionP1">
               ¿Tienes dudas? ¡contáctanos directamente!
             </p>
-            <button className="whatsappButton">
+            <button className="whatsapp">
               <a
                 href="https://api.whatsapp.com/send?phone=56975467484"
                 target="_blank"
