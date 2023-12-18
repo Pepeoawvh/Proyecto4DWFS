@@ -175,10 +175,13 @@ a:hover {
   width: 100%;
   z-index: 1000;
   opacity: 1; /* Asegura que el navbar sea visible al inicio */
-  transition: opacity 0.3s; /* Asegura que la animación de desvanecimiento se aplique cuando el estado del navbar cambie */
+  transition: opacity 5s; /* Asegura que la animación de desvanecimiento se aplique cuando el estado del navbar cambie */
+
+  
   
  }
  
  .scroll-down {
   display: none;
+  
  }
