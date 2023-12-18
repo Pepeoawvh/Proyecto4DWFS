@@ -5,9 +5,9 @@ export const Carrusel = () => {
  const [imagenActiva, setImagenActiva] = useState(0);
 // se declara un arreglo que contiene las imagenes que se usaran
  const imagenes = [
-    '/public/img/Banners/PROMO1.png',
-    '/public/img/Banners/PROMO2.png',
-    '/public/img/Banners/PROMO3.png'
+    '/img/Banners/PROMO1.png',
+    '/img/Banners/PROMO2.png',
+    '/img/Banners/PROMO3.png'
    ];
 // HOOK useEffect
    useEffect(() => {
