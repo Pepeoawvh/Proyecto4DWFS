@@ -35,11 +35,18 @@ nav {
   border: solid rgba(122, 120, 120, 0)2px;
   border-radius: 80px;
   height: 60px;
-  width: 40%;
+  width: 100%;
+  max-width: 800px;
   background-color: #2725298b;
   position: fixed;
   margin-bottom: 10px;
+  transition: background-color .3s ease;
 
+
+}
+
+nav.scroll{
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 
