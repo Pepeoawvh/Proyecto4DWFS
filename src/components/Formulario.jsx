@@ -38,7 +38,6 @@ export const Formulario = () => {
       alert("Reserva guardada")
     } catch (error){
       alert("No se pudo guardar la reserva")
-      console.log(error)
     }
     
   };

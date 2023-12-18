@@ -7,7 +7,6 @@ import "../styles/ProductCard.css"
 
 
 export const Menu = () => {
-  console.log(data)
   return (
     <>
       <div className="menu">

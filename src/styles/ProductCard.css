@@ -1,8 +1,10 @@
 .menu{
     background-image: url(/img/backgrounds/bg2.png);
-    height: 100vh; 
+    height: calc(100vh-40px); 
     background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir todo el contenedor */
     background-position: center center; /* Centra la imagen de fondo */
+    padding-bottom: 100px;
+
  
  } 
 
@@ -13,7 +15,8 @@ main.card-grid{
     grid-template-columns: repeat(3, 1fr);
     max-width: 1200px;
     width:100%;
-    margin:100px auto;
+    margin:100px auto 0;
+
 }
 
 div.card-container{

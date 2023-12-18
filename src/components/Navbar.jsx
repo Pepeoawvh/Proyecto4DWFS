@@ -4,13 +4,20 @@
 // y NavLink es casi igual que el Link, pero a nuestro componente le agrega una clase ".active"
 
 import { NavLink, Link } from 'react-router-dom'  
+import { useEffect, useState } from 'react'
 import '../styles/Navbar.css'
 import '../styles/textos.css'
+import useTrigger from './useTrigger'
 
 export const Navbar = () => {
+  const [top, setTop] = useState(true)
+  useTrigger('scroll', () => {
+    setTop(window.scrollY === 0) 
+  })
+  console.log(top)
   return (
     <header>
-      <nav>
+      <nav className={!top?'scroll':''} >
         <div>
             <Link to="/">
                 <div className="logo"/>
