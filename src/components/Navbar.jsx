@@ -7,16 +7,20 @@ import { NavLink, Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import '../styles/Navbar.css';
 import '../styles/textos.css';
-
+import useTrigger from './useTrigger'
 
 export const Navbar = () => {
  const [top, setTop] = useState(true);
-
+ useTrigger('scroll', () => {
+  setTop(window.scrollY === 0) 
+})
  useEffect(() => {
     const handleScroll = () => {
       setTop(window.scrollY === 0); 
     };
+
     window.addEventListener('scroll', handleScroll);
+    
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
