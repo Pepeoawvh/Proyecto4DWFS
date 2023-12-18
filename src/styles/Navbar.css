@@ -168,3 +168,17 @@ a:hover {
     font-size: 14px;
   }
 }
+
+.scroll-up {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  opacity: 1; /* Asegura que el navbar sea visible al inicio */
+  transition: opacity 0.3s; /* Asegura que la animación de desvanecimiento se aplique cuando el estado del navbar cambie */
+  
+ }
+ 
+ .scroll-down {
+  display: none;
+ }
