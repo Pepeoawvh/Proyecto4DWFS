@@ -3,7 +3,7 @@
 import { Navbar } from "../components/Navbar";
 import { Banner } from "../components/Banner";
 import { Footer } from "../components/Footer";
-
+import { Carrusel } from "../components/Carrusel";
 import "../styles/textos.css";
 
 export const Inicio = () => {
@@ -12,6 +12,7 @@ export const Inicio = () => {
       <div className="home">
         <Navbar />
         <Banner />
+        <Carrusel/>
         <Footer />
       </div>
     </>

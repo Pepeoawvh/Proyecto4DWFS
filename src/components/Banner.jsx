@@ -10,13 +10,11 @@ import '../styles/textos.css'
  return (
 <> 
 <div className="bannerContainer">
-      <div className="centrar-imagen">
         <img
           src="/img/Banners/Bienvenido.png"
           alt="Banner"
           className="bannerImgRatita"
         />
-      </div>
     </div>
 </>
 
