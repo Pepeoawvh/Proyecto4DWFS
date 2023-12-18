@@ -35,7 +35,13 @@ nav {
   background-color: #2725298b;
   position: fixed;
   margin-bottom: 10px;
+  transition: background-color .3s ease;
 
+
+}
+
+nav.scroll{
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 
