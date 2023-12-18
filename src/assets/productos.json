@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "img": "pizzaxbox.png",
+        "categoría": "Pizza",
+        "nombre": "PIZZA PEPPERONI XBOX",
+        "ingredientes" : [
+            "Salsa de Tomate",
+            "Queso Mozzarela",
+            "Pepperoni Americano"
+        ],
+        "precio": "9.990", 
+        "color": "red"
+
+    },
+    {
+        "id": 2,
+        "img": "pizzaNintendo.png",
+        "categoría": "Pizza",
+        "nombre": "PIZZA VEGAN NINTENDO",
+        "ingredientes" : [
+            "Salsa de Tomate",
+            "Queso Mozzarela",
+            "Choclo",
+            "Pimentón"
+        ],
+        "precio": "11.990" , 
+        "color": "blue"
+
+
+    },
+    {
+        "id": 3,
+        "img": "pizzaxbox.png",
+        "categoría": "Pizza",
+        "nombre": "PIZZA PEPPERONI XBOX",
+        "ingredientes" : [
+            "Salsa de Tomate",
+            "Queso Mozzarela",
+            "Pepperoni Americano"
+        ],
+        "precio": 9990 , 
+        "color": "yellow"
+
+
+    },
+    {
+        "id": 4,
+        "img": "pizzaxbox.png",
+        "categoría": "Pizza",
+        "nombre": "PIZZA PEPPERONI XBOX",
+        "ingredientes" : [
+            "Salsa de Tomate",
+            "Queso Mozzarela",
+            "Pepperoni Americano"
+        ],
+        "precio": 9990 , 
+        "color": "green"
+
+
+    },
+    {
+        "id": 5,
+        "img": "pizzaxbox.png",
+        "categoría": "Pizza",
+        "nombre": "PIZZA PEPPERONI XBOX",
+        "ingredientes" : [
+            "Salsa de Tomate",
+            "Queso Mozzarela",
+            "Pepperoni Americano"
+        ],
+        "precio": 9990 , 
+        "color": "cyan"
+
+
+    },
+    {
+        "id": 6,
+        "img": "pizzaxbox.png",
+        "categoría": "Pizza",
+        "nombre": "PIZZA PEPPERONI XBOX",
+        "ingredientes" : [
+            "Salsa de Tomate",
+            "Queso Mozzarela",
+            "Pepperoni Americano"
+        ],
+        "precio": 9990 , 
+        "color": "magenta"
+
+
+    }
+]
