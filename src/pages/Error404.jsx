@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/404.css";
-import "../styles/textos.css";
 
 export const Error404 = () => {
   return (

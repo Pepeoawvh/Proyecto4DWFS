@@ -1,7 +1,4 @@
-
-
 import '../styles/banner.css'
-import '../styles/textos.css'
 
 
 

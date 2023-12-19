@@ -9,7 +9,7 @@ header {
 
 nav {
   display: grid;
-  grid-template-columns: 0.4fr 1fr;
+  grid-template-columns: 0.3fr 1fr;
   font-size: 30px;
   justify-content: center;
   align-content: center;
