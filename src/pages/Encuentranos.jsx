@@ -10,13 +10,10 @@ export const Encuentranos = () => {
         <Navbar />
         <div className="containerMap">
           <div className="leftSection">
-            <p className="titulo1x"> ENCUENTRANOS/ </p>
-            <p className="descripcionP1">
-             Estamos en Av. La Plaza 13405, Las Condes
-            </p>
-            <p className="descripcionP1">
-              ¿Tienes dudas? ¡contáctanos directamente!
-            </p>
+          <div className="about">
+        Ratita Gamer es una pizzería única que combina la mejor gastronomia con el entretenimiento de los videojuegos. Podrás disfrutar de una deliciosa pizza hecha con ingredientes frescos y de calidad, mientras te diviertes con tus amigos o familiares en las consolas y máquinas arcade que tenemos para ti.
+        </div>
+
             <button className="whatsapp">
               <a
                 href="https://api.whatsapp.com/send?phone=56975467484"
