@@ -1,6 +1,6 @@
 .sobreNosotros {
   background-image: url('/img/backgrounds/bg3.png');
-  height: 100vh;
+  height: 100%;
   background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir todo el contenedor */
   background-position: center center; /* Centra la imagen de fondo */
  
@@ -23,9 +23,10 @@
 .leftSection {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 0.1fr 0.5fr;
+  grid-template-rows: 1fr 0.5fr ;
   margin: 10px;
   justify-items: center;
+  align-items: center;
 }
 
 .rightSection {
@@ -56,7 +57,18 @@
   background-color: rgb(0, 128, 0);
 }
 
-
+.about{
+  display: grid;
+  height: 100%;
+  font-size: 25px;
+  width: 80%;
+  height: 50%;
+  color: white;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  line-height: 40px;
+}
 
 .titulo1x{
   font-size: 60px;
@@ -78,12 +90,8 @@
   width: 30vw;
   height: 29vw;
   margin: 0px;
+  border-radius: 30px;
 }
-
-
-
-
-
 
 
 /* Consulta de medios para dispositivos móviles */
@@ -100,20 +108,21 @@
 .containerMap {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 0.5fr;
+  grid-template-rows: 1fr 1fr 0.1fr;
   background-color: #D8A34E;
   border-radius: 25px;
   color: white;
   margin-top: 200px;
   width: 80%;
-  height: 750px;
+  height: 870px;
   align-items: center;
 }
 
 .leftSection{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 0.1fr 0.5fr;
+  grid-template-rows: 1fr 0.3fr;
+  gap: 20px;
  
 }
 .rightSection {
@@ -121,7 +130,6 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
 }
-
 
 .titulo1x {
   font-size: 30px; /* Reducción del tamaño de fuente */
@@ -132,7 +140,9 @@
   margin-bottom: 20px; /* Reducción del margen inferior */
   text-align: center;
 }
-
+.about{
+  height: 100%;
+}
 #map {
   width: 50vw;
   height: 50vw;
