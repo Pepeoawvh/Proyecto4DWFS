@@ -25,7 +25,7 @@ El proyecto "La Ratita Gamer" es una aplicación desarrollada por el equipo conf
 
 ## 2. Demostración
 
-_(Aquí puedes incluir enlaces a capturas de pantalla, videos o demos en vivo que muestren el funcionamiento de la aplicación)_
+_(Capturas pantalla Firebase, App, etc...)_
 
 ## 3. Instalación
 
@@ -38,7 +38,24 @@ Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
 
 ## 4. Uso
 
-_(Proporciona una guía detallada sobre cómo utilizar la aplicación, explicando funcionalidades, comandos y ejemplos prácticos)_
+El proyecto "La Ratita Gamer" es una página web que presenta un restaurante ficticio especializado en pizzas. Aquí se detalla cómo utilizar las diferentes secciones de la aplicación:
+
+### Menú de Pizzas
+
+- **Descripción:** La sección de menú muestra una lista de productos que consisten en variedades de pizzas. Estos productos son cargados desde un archivo .json previamente creado.
+- **Funcionalidad:** Al hacer clic en la sección de Menú, se despliegan las distintas opciones de pizzas disponibles con sus respectivas descripciones y precios.
+
+### Reservas
+
+- **Descripción:** La sección de Reservas permite a los usuarios realizar reservas de mesa con detalles específicos.
+- **Funcionalidad:** Los usuarios pueden completar un formulario detallado con campos para la fecha, hora, número de personas y datos de contacto. Estos datos se envían y se almacenan en una base de datos Firestore de Firebase para su recepción y posterior gestión por parte del restaurante.
+
+### Encuéntranos (Integración con Google Maps API)
+
+- **Descripción:** La sección Encuéntranos muestra información sobre la ubicación y horarios del restaurante, integrando un mapa de Google mediante la Google Maps API.
+- **Funcionalidad:** Los usuarios pueden visualizar el mapa interactivo en la página web, el cual les permite ubicar fácilmente la dirección del restaurante, obtener indicaciones y realizar consultas in-app utilizando la funcionalidad proporcionada por Google Maps.
+
+Estas funcionalidades se encuentran integradas en la página web para brindar una experiencia completa a los usuarios que deseen explorar el menú, realizar reservas detalladas o encontrar la ubicación del restaurante de manera interactiva.
 
 ## 5. Stack Tecnológico
 
