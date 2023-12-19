@@ -2,7 +2,6 @@
 // me permite hacer el SPA(Single Page APlication). Transforma mi app comun en una SPA
 
 // y NavLink es casi igual que el Link, pero a nuestro componente le agrega una clase ".active"
-
 import { NavLink, Link } from 'react-router-dom';  
 import { useState, useEffect } from 'react';
 import '../styles/Navbar.css';

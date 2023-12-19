@@ -1,6 +1,4 @@
 
-
-
 const ProductCard = ({color, nombre, img, ingredientes, precio}) => {
 return(
     <div class="card-container" style={{/*backgroundColor: color*/}}>
