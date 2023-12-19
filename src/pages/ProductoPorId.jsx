@@ -1,3 +1,5 @@
+// Sección por implementar a futuro en caso de requerir descripción de los productos
+
 import { useParams } from "react-router-dom";
 
 export const ProductoPorId = () => {
