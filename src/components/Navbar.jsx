@@ -31,25 +31,24 @@ export const Navbar = () => {
       <nav>
         <div>
             <Link to="/">
-                <div className="logo"/>
+                <div className="logo co"/>
             </Link>
         </div>
-        <ul className='descripcionProducto'>
-          <li>
+        <div className='navText'>
+          <div className= 'navItem'>
             <NavLink to="/">Inicio</NavLink>
-          </li>
-          <li>
+          </div>
+          <div className= 'navItem'>
             <NavLink to="/Menu">Menú</NavLink>
-          </li>
-          <li>
+          </div>
+          <div className= 'navItem'>
             <NavLink to="/Reserva">Reservas</NavLink>
-          </li>
+          </div>
           
-          <li>
+          <div className= 'navItem encuentranos'>
             <NavLink to="/Encuentranos">Encuéntranos</NavLink>
-          </li>
-  
-        </ul>
+          </div>
+        </div>
       </nav>
     </header>
  );
