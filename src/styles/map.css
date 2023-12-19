@@ -14,7 +14,7 @@
   color: white;
   margin-top: 150px;
   width: 80%;
-  height: 500px;
+  height: 600px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 170px;
@@ -91,6 +91,7 @@
   height: 29vw;
   margin: 0px;
   border-radius: 30px;
+  align-self: top;
 }
 
 
