@@ -1,4 +1,3 @@
-
 /* Estilos generales del Navbar */
 header {
   display: grid;
@@ -51,8 +50,8 @@ nav {
   background-image: url(/img/icons/ratapizza.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   justify-self: right;
 }
 /* Estilos de los elementos del Navbar */
@@ -146,6 +145,8 @@ a:hover {
 
   }
 }
+
+ 
  
  .scroll-down {
   opacity: 0;
