@@ -1,13 +1,4 @@
-/* Resetear estilos para el navegador */
-body,
-h1,
-h2,
-h3,
-p,
-ul {
-  margin: 0;
-  padding: 0;
-}
+
 /* Estilos generales del Navbar */
 header {
   display: grid;
@@ -33,15 +24,16 @@ nav {
   background-color: #2725298b;
   position: fixed;
   margin-bottom: 10px;
-  transition: background-color .3s ease;
+  transition: background-color .3s;
   margin-top: 8px;
 
 
 }
 
-nav.scroll{
+/* nav.scroll{
   background-color: rgba(0, 0, 0, 0.8);
-}
+} */
+
 .navText{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -154,20 +146,8 @@ a:hover {
 
   }
 }
-
-.scroll-up {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-  opacity: 1; /* Asegura que el navbar sea visible al inicio */
-  transition: opacity 5s; /* Asegura que la animación de desvanecimiento se aplique cuando el estado del navbar cambie */
-
-  
-  
- }
  
  .scroll-down {
-  display: none;
-  
+  opacity: 0;
+  pointer-events: none;
  }
