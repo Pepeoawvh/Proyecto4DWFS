@@ -25,7 +25,12 @@ El proyecto "La Ratita Gamer" es una aplicación desarrollada por el equipo conf
 
 ## 2. Demostración
 
-_(Capturas pantalla Firebase, App, etc...)_
+![image](https://github.com/Pepeoawvh/Proyecto4DWFS/assets/140351890/c1dce92f-e37d-4109-b1e2-e4713353a340)
+![image](https://github.com/Pepeoawvh/Proyecto4DWFS/assets/140351890/ae6db1d1-13a0-4a31-bb51-36768e144cd8)
+![image](https://github.com/Pepeoawvh/Proyecto4DWFS/assets/140351890/a60e486e-bebb-458a-96a6-9e761a92243d)
+![image](https://github.com/Pepeoawvh/Proyecto4DWFS/assets/140351890/e3e6df08-be13-43fb-85ee-0125881cb3ec)
+
+
 
 ## 3. Instalación
 
