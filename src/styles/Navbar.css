@@ -20,11 +20,12 @@ header {
 nav {
   display: grid;
   grid-template-columns: 0.4fr 1fr;
-  font-size: 40px;
+  font-size: 30px;
+  justify-content: center;
   align-content: center;
   align-items: center;
-  gap: 5px;
   justify-items: center;
+  gap: 5px;
   border: solid rgba(122, 120, 120, 0)2px;
   border-radius: 80px;
   height: 80px;
@@ -48,6 +49,7 @@ nav.scroll{
   font-family: bebas neue;
   letter-spacing: 3px;
   gap: 20px;
+  justify-items: center;
   
 }
 .encuentranos{
@@ -63,7 +65,7 @@ nav.scroll{
 }
 /* Estilos de los elementos del Navbar */
 
-a {
+.navitem {
   display: grid;
   text-decoration:none;
   /* Eliminar el subrayado predeterminado de los enlaces */
@@ -74,7 +76,10 @@ a {
   font-size: 20px;
   /* Tamaño del texto del enlace */
 }
-
+a {
+  text-decoration: none;
+  color: white;
+}
 /* Estilos al pasar el ratón sobre los enlaces */
 a:hover {
   color: #ff9900;
@@ -127,10 +132,12 @@ a:hover {
     grid-template-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     text-align: center;
+    justify-items: stretch;
     gap: 20px;
     /* Justificar las opciones del menú a la izquierda */
     padding: 0;
     margin: 0;
+    margin-right: 15px;
 
     /* Eliminar el margen predeterminado */
   }
