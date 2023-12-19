@@ -5,6 +5,7 @@ h2,
 h3,
 p,
 ul {
+  font-family: bebas neue;
   margin: 0;
   padding: 0;
 }
@@ -57,8 +58,8 @@ nav.scroll{
   background-image: url(/img/icons/ratapizza.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   justify-self: right;
 }
 /* Estilos de los elementos del Navbar */
@@ -155,10 +156,8 @@ a:hover {
   z-index: 1000;
   opacity: 1; /* Asegura que el navbar sea visible al inicio */
   transition: opacity 5s; /* Asegura que la animación de desvanecimiento se aplique cuando el estado del navbar cambie */
-
-  
-  
  }
+ 
  
  .scroll-down {
   display: none;

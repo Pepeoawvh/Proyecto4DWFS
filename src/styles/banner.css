@@ -5,13 +5,13 @@
   grid-template-rows: 1fr;
   align-items: center;
   justify-items: center;
-  height: 600px;
+  height: 200px;
   /* Usar el 100% del alto de la ventana del navegador */
 }
 
 /* Estilos para la imagen del banner */
 .bannerImgRatita {
-  max-width: 40%;
+  max-width: 100%;
   max-height: 100%;
   width: auto;
   height: auto;
@@ -31,12 +31,12 @@
 
   /* Estilos para la imagen del banner */
   .bannerImgRatita {
-    max-width: 80%;
+    max-width: 100%;
     max-height: 100%;
     width: auto;
     height: auto;
-    margin-top: 320px;
-    /* Mueve la imagen 30px hacia arriba */
+
+    
   }
 
   /* Estilos para el contenedor principal del banner */
