@@ -2,3 +2,16 @@ body {
     background-color: #15141b;
 
 }
+
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  font-family: bebas neue;
+  margin: 0;
+  padding: 0;
+}
+
+
