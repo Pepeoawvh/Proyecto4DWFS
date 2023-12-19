@@ -2,7 +2,6 @@ import React, { useState } from "react";
 // import React from "react";
 import { firestoreDB } from "../firebase/config";
 import '../styles/Formulario.css'
-import '../styles/textos.css'
 
 export const Formulario = () => {
 

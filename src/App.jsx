@@ -8,16 +8,7 @@ function App() {
 
   return (
     <>
-    <body>
-     
       <MainRouter />
-      
-      
-     
-      </body>
-
-      
-
     </>
   )
 }

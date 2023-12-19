@@ -6,7 +6,6 @@
 import { NavLink, Link } from 'react-router-dom';  
 import { useState, useEffect } from 'react';
 import '../styles/Navbar.css';
-import '../styles/textos.css';
 import useTrigger from './useTrigger'
 
 export const Navbar = () => {

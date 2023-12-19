@@ -12,6 +12,8 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 0.1fr;
 }
+/* Resetear estilos para el navegador */
+
 
 @media screen and (max-width: 768px) {
   .home {
