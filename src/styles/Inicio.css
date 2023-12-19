@@ -1,11 +1,11 @@
 .home {
   background-image: url(/img/backgrounds/bg1.png);
-  height: 130vh;
+  height: 100%;
   background-size: cover;
   /* Ajusta el tamaño de la imagen de fondo para cubrir todo el contenedor */
   background-position: center center;
   /* Centra la imagen de fondo */
-}
+}  
 .containerInicio{
   display: grid;
   height: 100%;
