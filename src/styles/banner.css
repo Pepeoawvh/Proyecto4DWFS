@@ -31,8 +31,7 @@
 
   /* Estilos para la imagen del banner */
   .bannerImgRatita {
-    max-width: 120%;
-
+    max-width: 100%;
     width: auto;
     height: auto;
 
@@ -41,10 +40,7 @@
 
   /* Estilos para el contenedor principal del banner */
   .bannerContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50vh;
+width: 100%;
     /* Usar el 100% del alto de la ventana del navegador */
   }
 
