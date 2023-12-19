@@ -15,8 +15,6 @@ return(
             <span>{ingrediente}</span>
         ))}</p>
          <h3>Precio: ${precio}</h3>
-    <button>Ver más</button>
-
         </div>
     </div>
 )
